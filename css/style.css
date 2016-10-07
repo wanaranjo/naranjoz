@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+    margin-top: -10px;
+}
+.tabs .tab a {
+    color: #e65100;
+}
+.tabs .indicator {
+    background-color: #e65100;
+}
+.tabs .tab a:hover {
+  color: #ffcc80;
+}
+header{
+    padding-bottom: 20px;
+}
+.logo{
+    padding-left: 40px;}
